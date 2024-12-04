@@ -21,7 +21,7 @@ This repository serves as an example of how to create, package, and distribute P
 ## Features
 
 - *Virtual Numbers*: Access cost-effective, scalable, and reliable international phone number solutions for businesses of any size.
-- *[SMS Solutions](https://www.smslocal.com/)*: Engage customers with personalized SMS campaigns to boost interaction and retention.
+- *Engage customers with personalized SMS campaigns to boost interaction and retention.
 - *VOIP Integration*: Seamlessly integrate VOIP technologies to enhance communication while cutting operational costs.
 - *Cloud Contact Center*: Implement cloud-based contact center solutions to provide exceptional customer support at scale.
 
