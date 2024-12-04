@@ -1,4 +1,4 @@
-[2:42 AM, 12/4/2024] +91 87666 21138: # My Country Mobile
+# My Country Mobile
 
 Welcome to the official repository of *My Country Mobile*, a simple Python package designed to showcase basic functionality and offer a foundation for further development. This project includes essential tools and examples for learning how to create, document, and distribute Python packages.
 
