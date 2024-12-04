@@ -53,27 +53,31 @@ To install the *Teloz* Python package locally, follow these steps:
     pip install -e .
     
 
+# Simple Calculator
+
+This is a basic calculator built using HTML, CSS, and JavaScript. It allows users to perform simple arithmetic operations like addition, subtraction, multiplication, and division.
+
+## Features
+- Numeric buttons (0-9)
+- Basic operations (+, -, *, /)
+- Clear button (C) to reset the display
+- Evaluate expression using the "=" button
+- Simple and responsive design
+
+## Technologies Used
+- **HTML**: Used to create the structure of the calculator, including buttons and display area.
+- **CSS**: Used for styling the layout, buttons, and providing a clean, centered design.
+- **JavaScript**: Handles the logic for appending values to the display, clearing the display, and evaluating mathematical expressions.
+
+## How It Works
+- When you click on any number or operator, it is appended to the display.
+- The "C" button clears the display.
+- The "=" button evaluates the mathematical expression entered in the display using JavaScript's `eval()` function.
+
 ## Usage
-
-Once the package is installed, you can start by using the following example that demonstrates the core functionality:
-
-python
-from teloz_package import send_sms
-
-# Example of sending a custom SMS message
-response = send_sms("Hello, Teloz World!", "+1234567890")
-
-# Print the response from the SMS service
-print(response)
-
-
-This will send an SMS to the provided phone number, and output the result, which could look like this:
-
-
-SMS Sent Successfully to +1234567890
-
-
-Feel free to explore the code, create your own functions, and contribute to the project!
+1. Open the HTML file in any web browser.
+2. Click the buttons to perform calculations.
+3. Press "C" to clear the display or "=" to calculate the result.
 
 ## Contributing
 
