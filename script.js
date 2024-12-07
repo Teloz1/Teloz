@@ -1,18 +1,8 @@
-function appendToDisplay(value) {
-    document.getElementById('display').value += value;
-}
+// JavaScript to handle form submission
+document.getElementById('contact-form').addEventListener('submit', function(event) {
+  event.preventDefault(); // Prevent form default submission
+  const name = document.getElementById('name').value;
+  const email = document.getElementById('email').value;
 
-function clearDisplay() {
-    document.getElementById('display').value = '';
-}
-
-function calculate() {
-    let display = document.getElementById('display').value;
-    try {
-        // Evaluate the mathematical expression in the display
-        display = eval(display);
-        document.getElementById('display').value = display;
-    } catch (error) {
-        document.getElementById('display').value = 'Error';
-    }
-}
+  alert(`Thank you, ${name}! We will contact you at ${email}.`);
+});
