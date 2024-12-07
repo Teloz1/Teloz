@@ -1,31 +1,24 @@
-# Teloz Website
+# .readthedocs.yaml
 
-A simple and responsive website for **Teloz**, showcasing an overview, features, pricing, and a contact form. Built using HTML, CSS, and JavaScript.
+version: 2  # Configuration file format version
 
-## Features
+# Sphinx configuration
+sphinx:
+  configuration: docs/conf.py  # Path to the Sphinx configuration file
 
-- **Header**:
-  - Displays the Teloz logo in white with a blue background.
-  - Includes a description of Teloz with a "Get Started" button linking to [Teloz](https://www.teloz.com).
-  
-- **Sections**:
-  1. **Overview**: Brief description of Teloz services.
-  2. **Features**: Highlights the key features of Teloz.
-  3. **Pricing**: Links to learn more about Teloz pricing plans.
-  4. **What We Provide**: Details on Teloz's offerings with a link to explore more.
+# Python version and dependencies
+python:
+  version: "3.9"  # Use Python 3.9 for building documentation
+  install:
+    - requirements: docs/requirements.txt  # Install dependencies from this file
 
-- **Contact Us Form**:
-  - Includes fields for **Name**, **Email**, and **Password**.
-  - Submit button triggers a JavaScript alert thanking the user.
+# Build formats
+formats:
+  - html  # Build HTML documentation for web viewing
+  - pdf   # Optional: Generate a downloadable PDF version
+  - epub  # Optional: Generate an ePub version for e-readers
 
-- **Responsive Design**:
-  - Optimized for desktop and mobile views.
-
-## Technologies Used
-
-- **HTML**: For structure and content.
-- **CSS**: For styling and layout.
-- **JavaScript**: For form validation and interactivity.
-
-## Folder Structure
-
+# Custom build commands (optional)
+build:
+  commands:
+    - echo "Building the Teloz Website documentation..."
