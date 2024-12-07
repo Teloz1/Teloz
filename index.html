@@ -1,37 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple Calculator</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Teloz</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="calculator">
-        <input type="text" id="display" disabled>
-        <div class="buttons">
-            <button class="btn" onclick="appendToDisplay('1')">1</button>
-            <button class="btn" onclick="appendToDisplay('2')">2</button>
-            <button class="btn" onclick="appendToDisplay('3')">3</button>
-            <button class="btn" onclick="appendToDisplay('+')">+</button>
-            
-            <button class="btn" onclick="appendToDisplay('4')">4</button>
-            <button class="btn" onclick="appendToDisplay('5')">5</button>
-            <button class="btn" onclick="appendToDisplay('6')">6</button>
-            <button class="btn" onclick="appendToDisplay('-')">-</button>
-            
-            <button class="btn" onclick="appendToDisplay('7')">7</button>
-            <button class="btn" onclick="appendToDisplay('8')">8</button>
-            <button class="btn" onclick="appendToDisplay('9')">9</button>
-            <button class="btn" onclick="appendToDisplay('*')">*</button>
-            
-            <button class="btn" onclick="appendToDisplay('0')">0</button>
-            <button class="btn" onclick="clearDisplay()">C</button>
-            <button class="btn" onclick="calculate()">=</button>
-            <button class="btn" onclick="appendToDisplay('/')">/</button>
-        </div>
+  <header>
+    <div class="header-container">
+      <h1>Teloz</h1>
+      <p>Your trusted communication solution</p>
+      <a href="https://www.teloz.com" class="get-started">Get Started</a>
     </div>
+  </header>
 
-    <script src="script.js"></script>
+  <main>
+    <!-- Overview Section -->
+    <section id="overview">
+      <h2>Overview</h2>
+      <p>Teloz provides innovative communication solutions tailored for businesses of all sizes.</p>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features">
+      <h2>Features</h2>
+      <ul>
+        <li>Local and Toll-Free Numbers</li>
+        <li>Call Routing and Voicemail</li>
+        <li>Team Collaboration Tools</li>
+        <li>Auto-Attendant Greetings</li>
+        <li>Seamless Anywhere Access</li>
+        <li>Transparent Pricing Plans</li>
+      </ul>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing">
+      <h2>Pricing</h2>
+      <p>Explore our flexible plans designed to meet your needs. <a href="https://www.teloz.com">Learn More</a></p>
+    </section>
+
+    <!-- What We Provide Section -->
+    <section id="what-we-provide">
+      <h2>What We Provide</h2>
+      <p>Teloz offers business numbers, call management tools, and seamless integrations to keep your business connected.</p>
+      <a href="https://www.teloz.com" class="learn-more">Learn More</a>
+    </section>
+  </main>
+
+  <!-- Contact Us Form -->
+  <footer>
+    <section id="contact-us">
+      <h2>Contact Us</h2>
+      <form id="contact-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
