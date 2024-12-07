@@ -9,6 +9,6 @@ python:
     - requirements: docs/requirements.txt
 
 formats:
-  - html
+  - htmlzip
   - pdf
-  - epub
+  - epub 
